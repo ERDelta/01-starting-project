@@ -1,13 +1,16 @@
-import Header from "./Components/Header/Header.jsx";
+import Header from "./Components/Header.jsx";
+import CoreConcepts from "./Components/CoreConcepts.jsx";
+import Examaples from "./Components/Examples.jsx";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <main>
-        <h2>Time to get started!</h2>
+        <CoreConcepts />
+        <Examaples />
       </main>
-    </div>
+    </>
   );
 }
 
